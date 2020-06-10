@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
+
+body {
+    font-family: 'Roboto', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto mono', monospace;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+a {
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+
+.grid-container {
+    max-width: 980px;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+    height: 140px;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+header .header-icons-container {
+    width: 100%;
+    height: 50px;
+    display: grid;
+    background-color: #47cfac;
+}
+
+header .header-icons-container .icons {
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: end;
+    margin-right: 50px;
+}
+
+header .icons span {
+    color: white;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+}
+
+nav .nav-logo-container {
+    margin-left: 50px;
+}
+
+nav .nav-logo-container img {
+    width: 500px;
+    margin-top: 10px;
+}
+
+/* ? Small Version */
+nav .nav-logo-container a .logo-small {
+    width: 220px;
+    margin-top: 10px;
+}
+
+nav .profile-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 70px;
+}
+
+/* ? Small Version */
+nav .profile-link-small {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 70px;
+    font-family: 'Roboto mono', monospace;
+}
+
+nav .profile-link a {
+    font-size: 35px;
+    color: white;
+    border-bottom: 1px solid white;
+    font-family: 'Roboto mono', monospace;
+}
+
+/* ? Black Version */
+nav .profile-link-small a {
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.home-main {
+    height: 100%;
+    color: white;
+}
+
+.home-main div {
+    text-align: center;
+    margin: auto;
+    padding-top: 250px;
+}
+
+.home-main div .home-main-text {
+    font-size: 60px;
+    letter-spacing: 10px;
+    margin: 20px;
+    font-family: 'Roboto mono', monospace;
+    font-weight: bold;
+}
+
+.home-main div .home-main-button {
+    font-family: 'Roboto mono', monospace;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: #47cfac;
+    border: none;
+}
+
+
+/* ! ========================================= */
+/* ! Blogs Section */
+/* ! ========================================= */
+
+.blogs-main {
+    width: 100%;
+    background-color: #cacaca;
+}
+
+.last-blog {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+}
+
+.blogs-main .last-blog .main-news {
+    grid-column: 2;
+}
+
+.blogs-main .last-blog .main-news h3 {
+    margin-left: 40px;
+    font-size: 1.5em;
+}
+
+.blogs-main .last-blog .main-blog-img {
+    grid-column: 2;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.blogs-main .last-blog .main-blog-img img {
+    height: 400px;
+}
+
+.blogs-main .last-blog .main-blog-intro {
+    grid-column: 3;
+}
+
+.blogs-main .last-blog .main-blog-intro h1 {
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.blogs-main .last-blog .main-blog-intro p {
+    font-size: 1.2em;
+    margin-top: 12px;
+}
+
+.btn-read-more {
+    border: 1.5px solid #47cfac;
+    background: none;
+    padding: 10px 15px;
+    font-size: 1em;
+    font-family: 'Roboto mono', monospace;
+}
+
+/* ? blogs section */
+
+.blogs-section {
+    display: grid;
+    justify-items: center;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 10vh;
+}
+
+.blogs-section .blogs-container {
+    display: inherit;
+    border-top: 1px solid gray;
+    padding: 40px;
+    width: 80vw;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5%;
+}
+
+.blogs-container .blogpost img {
+    width: 100%;
+}
+
+.blogs-container .blogpost h2 {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.blogs-container .blogpost p {
+    margin-top: 10px;
+}
+
+/* ? Footer */
+
+#rect1 {
+    background-color: #47cfac;
+    margin-bottom: 0;
+    height: 5vh;
+}
+
+#rect2 {
+    background-color: #434a54;
+    height: 10vh;
+    display: grid;
+    color: white;
+    text-align: center;
+}
+
+#rect2 p {
+    font-family: 'Roboto mono', monospace;
+    font-size: 1.5em;
+    margin-top: 30px;
+}
+
+/* ! ========================================= */
+/* ! Blog */
+/* ! ========================================= */
+
+.blogpost-img-container {
+    padding: 0 50px 40px;
+}
+
+.blogpost-img-container img {
+    width: 100%;
+}
+
+.blogpost-main-container {
+    padding: 0 50px 40px;
+}
+
+.blogpost-main-container h3 {
+    border-bottom: 1px solid #cdd2da;
+    padding-bottom: 20px;
+}
+
+.blogpost-main-container section h1 {
+    font-size: 35px;
+}
+
+.contact-main-container {
+    width: 100%;
+    min-height: 250px;
+    background-color: #e6e9ed;
+    text-align: center;
+    padding-bottom: 50px;
+    font-family: 'Roboto mono', monospace;
+}
+
+.contact-main-container div {
+    display: inline-block;
+    width: 49.5%;
+    height: 100%;
+}
+
+.contact-main-container div a {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+.contact-main-container .contact-left, .contact-right {
+    text-align: initial;    
+    margin-top: 85px;
+}
+
+.contact-main-container img {
+    width: 100px;
+}
+
+/* ! Profile */
+
+.profile-main {
+    background-color: #e6e9ed;
+    display: flex;
+    font-family: 'Roboto mono', monospace;
+    justify-content: center;
+}
+
+.profile-main .profile-main-container {
+    width: 30vw;
+    display: block;
+    margin: 30px;
+}
+
+.profile-main img {
+    height: 25vh;
+    margin: auto 0;
+}
+
+.profile-main-container h1 {
+    margin: 0;
+    font-size: 4em;
+}
+
+.profile-proyects {
+    display: block;
+    justify-items: center;
+    width: 60vw;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    font-family: 'Roboto mono', monospace;
+}
+
+.profile-proyects h2 {
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+.profile-proyects .profile-proyects-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    width: 100%;
+}
+
+.profile-proyects-container .proyect h3 {
+    font-size: 1.5em;
+}
+

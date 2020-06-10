@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <clipPath id="clip-Pay_Bypass">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Pay_Bypass" data-name="Pay Bypass" clip-path="url(#clip-Pay_Bypass)">
+    <rect width="1920" height="1080" fill="#fff"/>
+    <g id="Rectangle_24" data-name="Rectangle 24" fill="#aec5f2" stroke="#707070" stroke-width="1">
+      <rect width="1920" height="1080" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1919" height="1079" fill="none"/>
+    </g>
+    <text id="PayPal" transform="translate(874 500)" fill="#151126" font-size="50" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="5.861" y="53">PayPal</tspan></text>
+  </g>
+</svg>

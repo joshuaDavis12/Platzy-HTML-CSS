@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <clipPath id="clip-Error">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Error" clip-path="url(#clip-Error)">
+    <rect width="1920" height="1080" fill="#fff"/>
+    <g id="Navbar" transform="translate(0 -5)">
+      <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(0 5)" fill="#2d61a6" stroke="#707070" stroke-width="1">
+        <rect width="1920" height="101" stroke="none"/>
+        <rect x="0.5" y="0.5" width="1919" height="100" fill="none"/>
+      </g>
+      <text id="BRAND" transform="translate(50)" fill="#eee" font-size="70" font-family="PermanentMarker, Permanent Marker"><tspan x="0" y="78">BRAND</tspan></text>
+      <rect id="Rectangle_4" data-name="Rectangle 4" width="249" height="89" rx="44.5" transform="translate(1645 11)" fill="#eee"/>
+      <rect id="Rectangle_5" data-name="Rectangle 5" width="249" height="89" rx="44.5" transform="translate(1347 11)" fill="#eee"/>
+      <text id="QUESTIONS" transform="translate(1384 34)" fill="#2d61a6" font-size="30" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="3.574" y="32">QUESTIONS</tspan></text>
+      <text id="PRODUCTS" transform="translate(1690 34)" fill="#2d61a6" font-size="30" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="32">PRODUCTS</tspan></text>
+    </g>
+    <g id="Group_14" data-name="Group 14" transform="translate(0 -95)">
+      <text id="_Your_purchase_could_not_be_made_successfully" data-name="
+Your purchase could not be made successfully" transform="translate(395 440)" fill="#151126" font-size="50" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="565.5" y="53"></tspan><tspan x="9.055" y="121">Your purchase could not be made successfully</tspan></text>
+      <g id="Group_12" data-name="Group 12" transform="translate(789 609)">
+        <g id="Group_10" data-name="Group 10" transform="translate(0 0)">
+          <g id="Rectangle_25" data-name="Rectangle 25" fill="#2d61a6" stroke="#707070" stroke-width="1">
+            <rect width="262" height="76" rx="26" stroke="none"/>
+            <rect x="0.5" y="0.5" width="261" height="75" rx="25.5" fill="none"/>
+          </g>
+          <text id="Try_it_again" data-name="Try it again" transform="translate(68 25)" fill="#eee" font-size="17" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="17.987" y="18">Try it again</tspan></text>
+        </g>
+      </g>
+      <g id="Group_13" data-name="Group 13" transform="translate(789 702.631)">
+        <g id="Group_10-2" data-name="Group 10" transform="translate(0 0)">
+          <g id="Rectangle_25-2" data-name="Rectangle 25" transform="translate(0 0.369)" fill="#ff054e" stroke="#707070" stroke-width="1">
+            <rect width="262" height="76" rx="26" stroke="none"/>
+            <rect x="0.5" y="0.5" width="261" height="75" rx="25.5" fill="none"/>
+          </g>
+          <text id="Return_to_Home" data-name="Return to Home" transform="translate(39 25.369)" fill="#eee" font-size="17" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="26.824" y="18">Return to Home</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

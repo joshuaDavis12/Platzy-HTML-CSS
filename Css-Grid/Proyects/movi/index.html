@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movi.es</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+            margin: 0;
+        }
+
+        /* Navbar */
+
+        nav {
+            height: 80px;
+            width: 100vw;
+            display: flex;
+            border-bottom: 3px solid rgba(82, 82, 82, 0.39);
+            position: fixed;
+            background: white;
+        }
+
+        nav div {
+            display: flex;
+        }
+
+        .logo {
+            color: rgb(255, 0, 64);
+            margin-left: 50px;
+            margin-right: 300px;
+        }
+
+        .search input {
+            width: 40vw;
+            height: 3vh;
+            border: .5px solid #a0a0a0;
+            border-radius: 10px;
+            padding: 10px;
+            margin: auto auto;
+        }
+
+        .profile {
+            margin: auto 250px;
+        }
+
+        .profile img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+
+        /* Left */
+
+        .left {
+            background: rgb(255, 0, 64);
+            width: 5vw;
+            height: 100vh;
+            color: white;
+            display: block;
+            position: fixed;
+            top: 80px;
+        }
+
+        .left img {
+            width: 4.5vw;
+            height: 4.5vh;
+        }
+
+        .left div {
+            text-align: center;
+        }
+
+        .left div p {
+            margin-top: 2%;
+        }
+
+        .left .home img {
+            margin-top: 20px;
+        }
+
+        .left .settings {
+            margin-top: 55vh;
+        }
+
+        /* Hero */
+
+        .hero {
+            margin-left: 10vw;
+        }
+
+        .hero-container {
+            display: grid;
+            width: 50vw;
+            grid-template-columns: [start]1fr [middle]1fr [end]1fr;
+            grid-gap: 10px;
+        }
+
+        .hero-container h2 {
+            grid-column: start/middle;
+        }
+
+        .movie {
+            width: 300px;
+            height: 150px;
+            background-image: url("https://i.ytimg.com/vi/UZJVc_JTI_w/maxresdefault.jpg");
+            background-size: cover;
+            cursor: pointer;
+        }
+
+        .movie1 {
+            grid-column: start/middle;
+        }
+
+        .movie2 {
+            grid-column: middle/end;
+        }
+
+        /* .movie div {
+            display: block;
+            color: white;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+        }
+
+        .movie div:hover {
+            opacity: 1;
+        } */
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>
+                    Movi.es
+                </h1>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Busca tu peli, actor, actriz o director favorito">
+            </div>
+            <div class="profile">
+                <p>
+                    Mr.Joshi
+                </p>
+                <img src="https://lh3.googleusercontent.com/-F7uCz1EvN1o/AAAAAAAAAAI/AAAAAAAAAAA/AKF05nDoa3W_YtiauU3FYLP6gjj20kDNww.CMID/s32-c/photo.jpg" alt="">
+            </div>
+        </nav>
+    </header>
+
+    <div class="left">
+        <div class="home">
+            <img src="home.svg" alt="">
+            <p>Home</p>
+        </div>
+
+        <div class="trending">
+            <img src="trending.svg" alt="">
+            <p>Trendings</p>
+        </div>
+        
+        <div class="likes">
+            <img src="heart.svg" alt="">
+            <p>Más Likes</p>
+        </div>
+
+        <div class="settings">
+            <img src="gear.svg" alt="">
+            <p>Ajustes</p>
+        </div>
+    </div>
+
+    <section class="hero">
+        <div class="hero-container">
+
+            <h2>
+                Ahora en el Cine
+            </h2>
+            
+                <div class="movie movie1"></div>
+                
+                <div class="movie movie2"></div>
+                
+                <div class="movie movie3"></div>
+            
+            <h2>
+                Aclamadas por la Crítica
+            </h2>
+            
+                <div class="movie movie1"></div>
+                
+                <div class="movie movie2"></div>
+                
+                <div class="movie movie3"></div>
+            
+            <h2>
+                No te debes perder
+            </h2>
+            
+                <div class="movie movie1"></div>
+                
+                <div class="movie movie2"></div>
+                
+                <div class="movie movie3"></div>
+
+            <h2>
+                Ahora en el Cine
+            </h2>
+            
+                <div class="movie movie1"></div>
+                
+                <div class="movie movie2"></div>
+                
+                <div class="movie movie3"></div>
+            
+            <h2>
+                Aclamadas por la Crítica
+            </h2>
+            
+                <div class="movie movie1"></div>
+                
+                <div class="movie movie2"></div>
+                
+                <div class="movie movie3"></div>
+            
+            <h2>
+                No te debes perder
+            </h2>
+            
+                <div class="movie movie1"></div>
+                
+                <div class="movie movie2"></div>
+                
+                <div class="movie movie3"></div>
+
+            <h2>
+                Ahora en el Cine
+            </h2>
+            
+                <div class="movie movie1"></div>
+                
+                <div class="movie movie2"></div>
+                
+                <div class="movie movie3"></div>
+            
+            <h2>
+                Aclamadas por la Crítica
+            </h2>
+            
+                <div class="movie movie1"></div>
+                
+                <div class="movie movie2"></div>
+                
+                <div class="movie movie3"></div>
+            
+            <h2>
+                No te debes perder
+            </h2>
+            
+                <div class="movie movie1"></div>
+                
+                <div class="movie movie2"></div>
+                
+                <div class="movie movie3"></div>
+        </div>
+    </section>
+</body>
+</html>

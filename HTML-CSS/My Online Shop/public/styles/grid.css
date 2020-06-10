@@ -1,0 +1,170 @@
+:root {
+    /* colors */
+    --fuxia:#ff0550;
+    --blue:#2D61A6;
+    --white:#EEEEEE;
+    --lightBlue:#AEC5F2;
+    --darkBlue:#151126;
+
+    /* font size */
+    --font50: 50px;
+    --font30: 30px;
+    --font20: 20px;
+    --font17: 17px;
+    --font12: 12px;
+    --font10: 10px;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.col-1 {
+    width: 8.333333333%;
+}
+
+.col-2 {
+    width: 16.6666%;
+}
+
+.col-3 {
+    width: 24.9999%;
+}
+
+.col-4 {
+    width: 33.3332%;
+}
+
+.col-5 {
+    width: 41.6665%;
+}
+
+.col-6 {
+    width: 49.9998%;
+}
+
+.col-7 {
+    width: 58.3331%;
+}
+
+.col-8 {
+    width: 66.6664%;
+}
+
+.col-9 {
+    width: 74.9997%;
+}
+
+.col-10 {
+    width: 83.333%;
+}
+
+.col-11 {
+    width: 91.6663%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12 {
+    padding: 10px;
+}
+
+.background {
+    background-color: white;
+    border-radius: 111px;
+    /* Cambiar el max si no funciona */
+    max-width: 1774px;
+    max-height: 2912px;
+    margin: 70px;
+}
+
+.container {
+    max-width: 1700px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    text-align: center;
+}
+
+button {
+    position: relative;
+    top: -250px;
+    left: 70px;
+}
+
+.button {
+    background-color: var(--blue);
+    width: 270px;
+    height: 63px;
+    border-radius: 15px;
+}
+
+.button a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.header {
+    font-size: var(--font20);
+    padding-left: 780px;
+}
+
+#redbull_img {
+    padding-left: 300px;
+    padding-top: 57px;
+    width: 553px;
+    height: 312px;
+}
+
+#mclaren_img {
+    padding-left: 513px;
+    width: 749px;
+    height: 236px;
+}
+
+#header {
+    padding-left: 680px;
+    font-size: var(--font20);
+}
+
+.tyre {
+    width: 279px;
+    height: 279px;
+}
+
+.brake {
+    width: 395px;
+    height: 263px;
+}
+
+.col-9 p, .col-8 p {
+    padding-top: 85px;
+}
+
+
+
+
+@media (max-width: 900px) {
+    .row {
+        display: inherit;
+    }
+
+    .row img {
+        height: auto;
+    }
+
+    .background {
+        width: 90%;
+        height: 70%;
+    }
+
+    .col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12 {
+        padding: 100%;
+    }
+}

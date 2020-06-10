@@ -1,0 +1,26 @@
+@media (max-width: 1000px) {
+
+#brand_header {
+    padding: 5%;
+}
+
+.products {
+    display: inherit;
+    height: auto;
+}
+
+.product {
+    margin-top: auto;
+    padding: 5%;
+}
+
+.main_section {
+    padding: 4%;
+}
+
+.information, .comments {
+    display: inherit;
+    padding: 5%;
+}
+
+}

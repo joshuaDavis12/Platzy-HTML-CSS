@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1500" viewBox="0 0 1920 1500">
+  <defs>
+    <clipPath id="clip-Questions">
+      <rect width="1920" height="1500"/>
+    </clipPath>
+  </defs>
+  <g id="Questions" clip-path="url(#clip-Questions)">
+    <rect width="1920" height="1500" fill="#eee"/>
+    <g id="Navbar" transform="translate(0 -4)">
+      <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(0 5)" fill="#2d61a6" stroke="#707070" stroke-width="1">
+        <rect width="1920" height="101" stroke="none"/>
+        <rect x="0.5" y="0.5" width="1919" height="100" fill="none"/>
+      </g>
+      <text id="BRAND" transform="translate(50)" fill="#eee" font-size="70" font-family="PermanentMarker, Permanent Marker"><tspan x="0" y="78">BRAND</tspan></text>
+      <rect id="Rectangle_4" data-name="Rectangle 4" width="249" height="89" rx="44.5" transform="translate(1645 11)" fill="#eee"/>
+      <rect id="Rectangle_5" data-name="Rectangle 5" width="249" height="89" rx="44.5" transform="translate(1347 11)" fill="#eee"/>
+      <text id="FAQS" transform="translate(1384 34)" fill="#2d61a6" font-size="30" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="50.046" y="32">FAQS</tspan></text>
+      <text id="PRODUCTS" transform="translate(1690 34)" fill="#2d61a6" font-size="30" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="32">PRODUCTS</tspan></text>
+    </g>
+    <text id="FAQS-2" data-name="FAQS" transform="translate(200 222)" fill="#ff054e" font-size="50" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="3.243" y="53">FAQS</tspan></text>
+    <text id="FQ" transform="translate(200 395)" fill="#151126" font-size="30" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0.71" y="32">FQ</tspan></text>
+    <text id="FQ-2" data-name="FQ" transform="translate(200 932)" fill="#151126" font-size="30" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0.71" y="32">FQ</tspan></text>
+    <text id="FQ-3" data-name="FQ" transform="translate(1679 670)" fill="#151126" font-size="30" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="1.42" y="32">FQ</tspan></text>
+    <text id="Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit._Cras_dictum_imperdiet_purus_non_rutrum_purus_fringilla_eu._Praesent_urna_libero_faucibus_et_sollicitudin_a_facilisis_ac_mauris._Fusce_id_mollis_purus._Quisque_quis_rhoncus_velit._Donec_non_viverra" data-name="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dictum imperdiet purus, non rutrum purus fringilla eu. Praesent urna libero, faucibus et sollicitudin a, facilisis ac mauris. Fusce id mollis purus. Quisque quis rhoncus velit. Donec non viverra" transform="translate(200 448)" fill="#2d61a6" font-size="20" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="21">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dictum imperdiet purus, non rutrum </tspan><tspan x="0" y="48">purus fringilla eu. Praesent urna libero, faucibus et sollicitudin a, facilisis ac mauris. Fusce id mollis </tspan><tspan x="0" y="75">purus. Quisque quis rhoncus velit. Donec non viverra nulla. Curabitur vitae est massa. Phasellus </tspan><tspan x="0" y="102">congue quam eget varius suscipit. Duis nec libero accumsan, suscipit augue ut, commodo sapien.</tspan></text>
+    <text id="Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit._Cras_dictum_imperdiet_purus_non_rutrum_purus_fringilla_eu._Praesent_urna_libero_faucibus_et_sollicitudin_a_facilisis_ac_mauris._Fusce_id_mollis_purus._Quisque_quis_rhoncus_velit._Donec_non_viverra-2" data-name="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dictum imperdiet purus, non rutrum purus fringilla eu. Praesent urna libero, faucibus et sollicitudin a, facilisis ac mauris. Fusce id mollis purus. Quisque quis rhoncus velit. Donec non viverra" transform="translate(200 985)" fill="#2d61a6" font-size="20" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="21">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dictum imperdiet purus, non rutrum </tspan><tspan x="0" y="48">purus fringilla eu. Praesent urna libero, faucibus et sollicitudin a, facilisis ac mauris. Fusce id mollis </tspan><tspan x="0" y="75">purus. Quisque quis rhoncus velit. Donec non viverra nulla. Curabitur vitae est massa. Phasellus </tspan><tspan x="0" y="102">congue quam eget varius suscipit. Duis nec libero accumsan, suscipit augue ut, commodo sapien.</tspan></text>
+    <text id="Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit._Cras_dictum_imperdiet_purus_non_rutrum_purus_fringilla_eu._Praesent_urna_libero_faucibus_et_sollicitudin_a_facilisis_ac_mauris._Fusce_id_mollis_purus._Quisque_quis_rhoncus_velit._Donec_non_viverra-3" data-name="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dictum imperdiet purus, non rutrum purus fringilla eu. Praesent urna libero, faucibus et sollicitudin a, facilisis ac mauris. Fusce id mollis purus. Quisque quis rhoncus velit. Donec non viverra" transform="translate(759 723)" fill="#2d61a6" font-size="20" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="20.785" y="21">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dictum imperdiet purus, non rutrum </tspan><tspan x="11.801" y="48">purus fringilla eu. Praesent urna libero, faucibus et sollicitudin a, facilisis ac mauris. Fusce id mollis </tspan><tspan x="37.992" y="75">purus. Quisque quis rhoncus velit. Donec non viverra nulla. Curabitur vitae est massa. Phasellus </tspan><tspan x="26.605" y="102">congue quam eget varius suscipit. Duis nec libero accumsan, suscipit augue ut, commodo sapien.</tspan></text>
+    <g id="Footer" transform="translate(0 1400)">
+      <g id="Rectangle_8" data-name="Rectangle 8" fill="#151126" stroke="#707070" stroke-width="1">
+        <rect width="1920" height="100" stroke="none"/>
+        <rect x="0.5" y="0.5" width="1919" height="99" fill="none"/>
+      </g>
+      <text id="Terms_Conditions" data-name="Terms &amp; Conditions" transform="translate(150 41)" fill="#aec5f2" font-size="12" font-family="OpenSans, Open Sans"><tspan x="2.834" y="13">Terms &amp; Conditions</tspan></text>
+      <text id="email_email.com" data-name="email@email.com" transform="translate(1669 41)" fill="#aec5f2" font-size="12" font-family="OpenSans, Open Sans"><tspan x="0.81" y="13">email@email.com</tspan></text>
+      <text id="_201_Monroe_St_Montgomery_AL_36104" data-name="201 Monroe St
+Montgomery, AL 36104" transform="translate(1470 33)" fill="#aec5f2" font-size="12" font-family="OpenSans, Open Sans"><tspan x="26.517" y="13">201 Monroe St</tspan><tspan x="2.675" y="30">Montgomery, AL 36104</tspan></text>
+    </g>
+  </g>
+</svg>

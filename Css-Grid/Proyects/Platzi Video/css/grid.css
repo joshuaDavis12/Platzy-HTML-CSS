@@ -1,0 +1,79 @@
+.container {
+    display: grid;
+    height: 150vh;
+    grid-template: [start]1fr [middle]10% [end]1fr / [start]30% [middle]1fr [end]1fr;
+}
+
+/* ! Left */
+
+#left {
+    grid-row: start/-1;
+    display: grid;
+    grid-template-rows: [start]10% [middle]auto [end]1fr;
+    height: 100%;
+    margin: 0;
+}
+
+.logo {
+    grid-row: start/middle;
+}
+
+.playlist {
+    grid-row: middle/end;
+}
+
+.friends {
+    grid-row: end/-1;
+}
+
+
+/* ! Video */
+
+#video {
+    grid-column: middle/-1;
+}
+
+/* ! Info */
+
+#info {
+    grid-column: middle/-1;
+    display: grid;
+    grid-template-rows: [start]1fr [end]1fr;
+    height: 100%;
+}
+
+.info-title {
+    grid-row: start/end;
+    grid-column: start/-1;
+}
+
+.info-actions {
+    grid-row: end/-1;
+    display: grid;
+    grid-template-columns: [start]20% [col2]12% [col3]5% [col4]30% [end]1fr;
+    height: 100%;
+}
+
+.info-actions .add-to {
+    grid-column: start/col2;
+}
+
+.info-actions .actions {
+    grid-column: col2/col3;
+}
+
+.info-actions .categ {
+    grid-column: col4/end;
+}
+
+/* ! Comments */
+
+#comments {
+    grid-column: middle/end;
+}
+
+/* ! Suggestions */
+
+#suggestions {
+    grid-column: end/-1;
+}

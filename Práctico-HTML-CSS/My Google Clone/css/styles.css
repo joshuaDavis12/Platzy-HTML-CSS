@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100vh;
+}
+
+.main_section {
+    padding-top: 190px;
+}
+
+.logo {
+    height: 92px;
+    width: 272px;
+}
+
+.text_box {
+    border: 1px solid black;
+    border-radius: 24px;
+    background: #fff;
+    width: 582px;
+}
+
+#search {
+    height: 15px;
+    position: relative;
+    top: 3px;
+    right: 10px;
+}
+
+#voice {
+    height: 20px;
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+
+.text_box input {
+    border: none;
+    -webkit-appearance: textfield;
+}
+
+.input {
+    font: 16px arial,sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 34px;
+    font-family: arial, sans-serif;
+    line-height: 34px;
+    text-align: start;
+    width: 487px;
+    border: none;
+}

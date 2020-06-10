@@ -1,0 +1,268 @@
+/* -----Variables-------- */
+
+:root {
+    /* colors */
+    --fuxia:#ff0550;
+    --blue:#2D61A6;
+    --white:#EEEEEE;
+    --lightBlue:#AEC5F2;
+    --darkBlue:#151126;
+
+    /* font size */
+    --font50: 50px;
+    --font30: 30px;
+    --font20: 20px;
+    --font17: 17px;
+    --font12: 12px;
+    --font10: 10px;
+}
+
+/* ================================ */
+/* Navbar */
+/* ================================ */
+
+html, body {
+    background-color: var(--white);
+    padding: 0%;
+    margin: 0%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav {
+    display: flex;
+    background-color: var(--blue);
+    padding: 10px;
+    color: var(--white);
+    justify-content: space-between;
+    align-items: center;
+    font-size: var(--font20);
+    height: 50px;
+}
+
+.brandLogo{
+    font-family: 'Permanent Marker', cursive; 
+    font-size: var(--font50);
+    padding-left: 50px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    padding-left: 20px;
+    padding-top: 5px;
+    /* Button */
+    width: 149px;
+    height: 45px;
+    background-color: var(--white);
+    border-radius: 51px;
+    /* Text */
+    list-style: none;
+    text-align: center;
+}
+
+nav li a{
+    color: var(--blue);
+    text-decoration: none;
+    line-height: 2;
+    padding-right: 23px;
+}
+
+#products{
+    position: relative;
+    left: -10px;
+}
+
+#faqs {
+    position: relative;
+    left: -20px;
+}
+
+/* ================================ */
+/* Main Section */
+/* ================================ */
+
+
+.main_section{
+    padding: 15%;
+}
+
+#brand_header {
+    color: var(--fuxia); 
+    font-weight: 400;
+    padding-left: 450px;
+    padding-right: 450px;
+    padding-top: 40px;
+}
+
+.products {
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 216px;
+    display: flex;
+    font-weight: 600;
+    color: var(--darkBlue);
+}
+
+.product {
+    padding-left: 238px;
+}
+
+.content {
+    width: 390px;
+    height: 515px;
+    border-radius: 25px;
+}
+
+.product .content {
+    background-color: white;
+    text-align: center;
+}
+
+#redBull_image {
+    width: 219px;
+    height: 145.5px;
+    padding-top: 40px;
+}
+
+.product_header {
+    padding-top: 25px;
+    font-size: var(--font30);
+    font-weight: 600;
+    margin: 0%;
+}
+
+.product_text {
+    padding: 15px;
+    font-size: var(--font17);
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+#mclaren_image {
+    padding-top: 55px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 30px;
+    width: 327px;
+    height: 103px;
+}
+
+.img_content {
+    text-align: center;
+}
+
+.main_button {
+    background-color: var(--fuxia);
+    color: var(--white);
+
+    text-align: center;
+    font-size: var(--font30);
+    border-radius: 16px;
+    width: 330px;
+    height: 85px;
+    position: relative;
+    top: -35px;
+
+    cursor: pointer;
+}
+
+.main_button:hover {
+    background-color: #FF4681;
+}
+
+/* ================================ */
+/* Info */
+/* ================================ */
+
+.information {
+    text-align: center;
+    color: var(--darkBlue);
+    font-size: var(--font17);
+    padding: 10%;
+    display: flex;
+}
+
+.info {
+    text-align: center;
+    padding: 150px;
+}
+
+.info img {
+    max-height: 176px;
+}
+
+.text_info {
+    text-align: center;
+}
+
+/* ================================ */
+/* Comments */
+/* ================================ */
+
+.comments {
+    display: flex;
+    padding: 5%;
+    text-align: center;
+}
+
+.comment img {
+    border-radius: 50%;
+    width: 216px;
+}
+
+.comment {
+    padding: 100px;
+}
+
+.comment .text {
+    padding: 10px;
+}
+
+/* ================================ */
+/* Sell */
+/* ================================ */
+
+.pay_module {
+    background-color: var(--white);
+    padding: 10px;
+}
+
+.pay_module_img {
+    width: 219px;
+    height: 145.5px;
+}
+
+/* ================================ */
+/* Footer */
+/* ================================ */
+
+.footer {
+    height: 80px;
+    background-color: var(--darkBlue);
+    color: var(--white);
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.terms {
+    padding: 50px;
+}
+
+.footer ul {
+    padding: 50px;
+    display: flex;
+}
+
+.footer li {
+    list-style: none;
+    text-align: center;
+    padding: 30px;
+}
+
+#email {
+    padding-top: 35px;
+}

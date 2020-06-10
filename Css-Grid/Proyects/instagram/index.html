@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Istagram</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+        }
+
+        .post-list {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(100px, 293px));
+            justify-content: center;
+            grid-gap: 28px;
+        }
+
+        .post {
+            cursor: pointer;
+            position: relative;
+            display: block;
+        }
+
+        .post-image {
+            margin: 0;
+        }
+
+        .post-image img {
+            width: 100%;
+            vertical-align: top;
+        }
+
+        .post-overlay {
+            background-color: rgba(0, 0, 0, .4);
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            display: none;
+            justify-content: center;
+            color: white;
+        }
+
+        .post:hover .post-overlay {
+            display: flex;
+        }
+
+        .post-likes, .post-comments {
+            width: 80px;
+            margin: 5px;
+            font-weight: bold;
+            text-align: center;
+            display: inline-block;
+        }
+
+        @media screen and (max-width: 768px) {
+            .post-list {
+                grid-gap: 3px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="post-list">
+        <a href="#" class="post">
+            <figure class="post-image">
+                <img src="compu.jpg" alt="">
+            </figure>
+            <div class="post-overlay">
+                <p>
+                    <span class="post-likes">150</span>
+                    <span class="post-comments">10</span>
+                </p>
+            </div>
+        </a>
+        <a href="#" class="post">
+            <figure class="post-image">
+                <img src="compu2.jpg" alt="">
+            </figure>
+            <div class="post-overlay">
+                <p>
+                    <span class="post-likes">150</span>
+                    <span class="post-comments">10</span>
+                </p>
+            </div>
+        </a>
+        <a href="#" class="post">
+            <figure class="post-image">
+                <img src="compu3.jpg" alt="">
+            </figure>
+            <div class="post-overlay">
+                <p>
+                    <span class="post-likes">150</span>
+                    <span class="post-comments">10</span>
+                </p>
+            </div>
+        </a>
+        <a href="#" class="post">
+            <figure class="post-image">
+                <img src="Sticker Abt.png" alt="">
+            </figure>
+            <div class="post-overlay">
+                <p>
+                    <span class="post-likes">150</span>
+                    <span class="post-comments">10</span>
+                </p>
+            </div>
+        </a>
+        <a href="#" class="post">
+            <figure class="post-image">
+                <img src="Sticker De Vries.png" alt="">
+            </figure>
+            <div class="post-overlay">
+                <p>
+                    <span class="post-likes">150</span>
+                    <span class="post-comments">10</span>
+                </p>
+            </div>
+        </a>
+        <a href="#" class="post">
+            <figure class="post-image">
+                <img src="Sticker Espargaro.png" alt="">
+            </figure>
+            <div class="post-overlay">
+                <p>
+                    <span class="post-likes">150</span>
+                    <span class="post-comments">10</span>
+                </p>
+            </div>
+        </a>
+        <a href="#" class="post">
+            <figure class="post-image">
+                <img src="compu.jpg" alt="">
+            </figure>
+            <div class="post-overlay">
+                <p>
+                    <span class="post-likes">150</span>
+                    <span class="post-comments">10</span>
+                </p>
+            </div>
+        </a>
+        <a href="#" class="post">
+            <figure class="post-image">
+                <img src="compu3.jpg" alt="">
+            </figure>
+            <div class="post-overlay">
+                <p>
+                    <span class="post-likes">150</span>
+                    <span class="post-comments">10</span>
+                </p>
+            </div>
+        </a>
+        <a href="#" class="post">
+            <figure class="post-image">
+                <img src="Sticker Kimi.png" alt="">
+            </figure>
+            <div class="post-overlay">
+                <p>
+                    <span class="post-likes">150</span>
+                    <span class="post-comments">10</span>
+                </p>
+            </div>
+        </a>
+        <a href="#" class="post">
+            <figure class="post-image">
+                <img src="compu2.jpg" alt="">
+            </figure>
+            <div class="post-overlay">
+                <p>
+                    <span class="post-likes">150</span>
+                    <span class="post-comments">10</span>
+                </p>
+            </div>
+        </a>
+        <a href="#" class="post">
+            <figure class="post-image">
+                <img src="Sticker Marquez.png" alt="">
+            </figure>
+            <div class="post-overlay">
+                <p>
+                    <span class="post-likes">150</span>
+                    <span class="post-comments">10</span>
+                </p>
+            </div>
+        </a>
+        <a href="#" class="post">
+            <figure class="post-image">
+                <img src="Sticker Max.png" alt="">
+            </figure>
+            <div class="post-overlay">
+                <p>
+                    <span class="post-likes">150</span>
+                    <span class="post-comments">10</span>
+                </p>
+            </div>
+        </a>
+        <a href="#" class="post">
+            <figure class="post-image">
+                <img src="Sticker Morbidelli.png" alt="">
+            </figure>
+            <div class="post-overlay">
+                <p>
+                    <span class="post-likes">150</span>
+                    <span class="post-comments">10</span>
+                </p>
+            </div>
+        </a>
+        <a href="#" class="post">
+            <figure class="post-image">
+                <img src="compu.jpg" alt="">
+            </figure>
+            <div class="post-overlay">
+                <p>
+                    <span class="post-likes">150</span>
+                    <span class="post-comments">10</span>
+                </p>
+            </div>
+        </a>
+        <a href="#" class="post">
+            <figure class="post-image">
+                <img src="compu2.jpg" alt="">
+            </figure>
+            <div class="post-overlay">
+                <p>
+                    <span class="post-likes">150</span>
+                    <span class="post-comments">10</span>
+                </p>
+            </div>
+        </a>
+        <a href="#" class="post">
+            <figure class="post-image">
+                <img src="compu3.jpg" alt="">
+            </figure>
+            <div class="post-overlay">
+                <p>
+                    <span class="post-likes">150</span>
+                    <span class="post-comments">10</span>
+                </p>
+            </div>
+        </a>
+        <a href="#" class="post">
+            <figure class="post-image">
+                <img src="Sticker Petrucci.png" alt="">
+            </figure>
+            <div class="post-overlay">
+                <p>
+                    <span class="post-likes">150</span>
+                    <span class="post-comments">10</span>
+                </p>
+            </div>
+        </a>
+        <a href="#" class="post">
+            <figure class="post-image">
+                <img src="Sticker Russell.png" alt="">
+            </figure>
+            <div class="post-overlay">
+                <p>
+                    <span class="post-likes">150</span>
+                    <span class="post-comments">10</span>
+                </p>
+            </div>
+        </a>
+        <a href="#" class="post">
+            <figure class="post-image">
+                <img src="Sticker Safeti Car.png" alt="">
+            </figure>
+            <div class="post-overlay">
+                <p>
+                    <span class="post-likes">150</span>
+                    <span class="post-comments">10</span>
+                </p>
+            </div>
+        </a>
+        <a href="#" class="post">
+            <figure class="post-image">
+                <img src="Sticker Vandoorne.png" alt="">
+            </figure>
+            <div class="post-overlay">
+                <p>
+                    <span class="post-likes">150</span>
+                    <span class="post-comments">10</span>
+                </p>
+            </div>
+        </a>
+        <a href="#" class="post">
+            <figure class="post-image">
+                <img src="Sticker Vettel 2.png" alt="">
+            </figure>
+            <div class="post-overlay">
+                <p>
+                    <span class="post-likes">150</span>
+                    <span class="post-comments">10</span>
+                </p>
+            </div>
+        </a>
+        <a href="#" class="post">
+            <figure class="post-image">
+                <img src="compu.jpg" alt="">
+            </figure>
+            <div class="post-overlay">
+                <p>
+                    <span class="post-likes">150</span>
+                    <span class="post-comments">10</span>
+                </p>
+            </div>
+        </a>
+        <a href="#" class="post">
+            <figure class="post-image">
+                <img src="compu2.jpg" alt="">
+            </figure>
+            <div class="post-overlay">
+                <p>
+                    <span class="post-likes">150</span>
+                    <span class="post-comments">10</span>
+                </p>
+            </div>
+        </a>
+        <a href="#" class="post">
+            <figure class="post-image">
+                <img src="compu3.jpg" alt="">
+            </figure>
+            <div class="post-overlay">
+                <p>
+                    <span class="post-likes">150</span>
+                    <span class="post-comments">10</span>
+                </p>
+            </div>
+        </a>
+        <a href="#" class="post">
+            <figure class="post-image">
+                <img src="Sticker Vettel.png" alt="">
+            </figure>
+            <div class="post-overlay">
+                <p>
+                    <span class="post-likes">150</span>
+                    <span class="post-comments">10</span>
+                </p>
+            </div>
+        </a>
+    </section>
+</body>
+</html>

@@ -1,0 +1,227 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    margin: 0;
+}
+
+.p-header {
+    font-size: 1.2em;
+}
+
+/* ! Left */
+
+#left {
+    background-color: #171B2F;
+    color: rgb(235, 232, 232);
+    overflow: scroll;
+    position: fixed;
+    width: 30%;
+}
+
+/* ? Hide scrollbar for Chrome, Safari and Opera */
+#left::-webkit-scrollbar {
+    display: none;
+}
+
+/* ? Hide scrollbar for IE and Edge */
+#left {
+    -ms-overflow-style: none;
+}
+
+.logo img {
+    height: 100%;
+}
+
+.playlist ul li {
+    margin-bottom: 15px;
+}
+
+.playlist .p-header {
+    margin-left: 20px;
+    font-size: 1.4em;
+}
+
+.friends .p-header {
+    margin-left: 30px;
+    font-size: 1.4em;
+}
+
+.friends ul {
+    list-style: none;
+}
+
+.friends ul li {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.friends img {
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+/* ! Video */
+
+#video video {
+    height: 79.5vh;
+}
+
+/* ! Info */
+
+.info-title {
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.info-title p {
+    margin-bottom: 3px;
+    margin: 0;
+}
+
+.info-title small {
+    color: gray;
+    font-size: 1em;
+}
+
+.actions a {
+    color: black;
+    text-decoration: none;
+    font-size: .8em;
+    display: inline-block;
+    margin-right: 15%;
+}
+
+.actions a div {
+    display: grid;
+    text-align: center;
+    width: 50px;
+    margin-top: 10px;
+}
+
+.actions a div img {
+    opacity: .75;
+    justify-self: center;
+}
+
+.info-actions .categ button {
+    text-align: center;
+    width: 20%;
+    height: 35%;
+    margin-right: 3%;
+    border-radius: 12px;
+    color: white;
+    border: none;
+    margin-top: 5%;
+}
+
+.info-actions .categ button:nth-of-type(1) {
+    background-color: rgb(160, 22, 179);
+}
+
+.info-actions .categ button:nth-of-type(2) {
+    background-color: rgb(7, 248, 188);
+}
+
+.info-actions .categ button:nth-of-type(3) {
+    background-color: rgb(243, 20, 20);
+}
+
+.info-actions .categ button:nth-of-type(4) {
+    background-color: rgb(255, 39, 104);
+}
+
+/* ! Comments */
+
+#comments {
+    padding-left: 5%;
+}
+
+#comments .text-input {
+    height: 65px;
+    width: 90%;
+    background-color: rgb(240, 240, 240);
+    border-radius: 12px;
+    display: flex;
+}
+
+#comments .text-input figure {
+    margin: 7px;
+}
+
+#comments .text-input img {
+    height: 50px;
+    border-radius: 50%;
+}
+
+#comments .text-input input {
+    background-color: rgb(240, 240, 240);
+    border: none;
+    margin-left: 10px;
+    height: 50px;
+    width: 70%;
+    font-size: 1em;
+    margin-top: 5px;
+}
+
+.comments-list ul {
+    margin-top: 30px;
+    padding: 0;
+
+}
+
+.comments-list ul li {
+    list-style: none;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.comments-list ul img {
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.comments-list ul li .comment-container {
+    display: block;
+}
+
+.comment-container p {
+    margin: 0;
+}
+
+/* ! Suggestions */
+.sug-header {
+    margin-left: 20px;
+}
+
+.recomendations .vid-suggested {
+    width: min-content;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.recomendations .vid-suggested figure {
+    margin: 0;
+    height: 250px;
+    width: 375px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.recomendations .vid-suggested #sug-2 {
+    background-image: url('../williams.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.recomendations .vid-suggested #sug-3 {
+    background-image: url('../hacker.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.recomendations .vid-suggested p {
+    margin-bottom: 30px ;
+}
